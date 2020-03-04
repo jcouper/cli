@@ -20,3 +20,10 @@ movie7 = Movie.create(title: "Top Gun", genre: "Action", gross_revenue: 35381172
 movie8 = Movie.create(title: "Risky Business", genre: "Drama", gross_revenue: 63541777)
 
 MovieActor.create(actor_id: actor1.id, movie_id: movie1.id)
+MovieActor.create(actor_id: actor1.id, movie_id: movie2.id)
+MovieActor.create(actor_id: actor2.id, movie_id: movie3.id)
+MovieActor.create(actor_id: actor2.id, movie_id: movie4.id)
+MovieActor.create(actor_id: actor3.id, movie_id: movie5.id)
+MovieActor.create(actor_id: actor3.id, movie_id: movie6.id)
+MovieActor.create(actor_id: actor4.id, movie_id: movie7.id)
+MovieActor.create(actor_id: actor4.id, movie_id: movie8.id)
